@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Suite" parallel="tests">
+    <test name="Test 1">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 2">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="101"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 3">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="100"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 4">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 5">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="101"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 6">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="browserVersion" value="100"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 7">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="edge"/>
+        <parameter name="browserVersion" value="102"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 8">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="edge"/>
+        <parameter name="browserVersion" value="101"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 9">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="edge"/>
+        <parameter name="browserVersion" value="100"/>
+        <classes>
+            <class name="TestNGSample"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test 10">
+    <parameter name="os" value="macOS"/>
+    <parameter name="osVersion" value="12"/>
+    <parameter name="browser" value="safari"/>
+    <parameter name="browserVersion" value="15"/>
+    <classes>
+        <class name="TestNGSample"/>
+    </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
